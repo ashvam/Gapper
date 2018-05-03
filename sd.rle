@@ -1,0 +1,16 @@
+ption Explicit ' All variables must be declared
+'Call WriteLog(True, False, "RulesLoad.txt", False, False, "Loading rules - " & Now())
+
+'********************************************************************************************
+' Constants
+'********************************************************************************************
+'*** Technical constants
+'****** Separators (for UD fields and Cell-text calculations)
+Public Const sSep1 = "^"
+Public Const sSep2 = ":"
+
+'****** Keyword to override Sub NoInput (UD fields in AT members)
+Public Const sNoInputOverride = "Manual" 'NOT USED
+
+'****** Application Cell Text size limit
+Public Const iCellTextSize = 50000
