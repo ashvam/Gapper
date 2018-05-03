@@ -14,3 +14,6 @@ Public Const sNoInputOverride = "Manual" 'NOT USED
 
 '****** Application Cell Text size limit
 Public Const iCellTextSize = 50000
+
+"""""""""""""""""""
+Add A=fb;
